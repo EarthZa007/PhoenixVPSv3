@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern VPS Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Modern VPS Shop</h1>
+    </header>
+
+    <section>
+        <!-- VPS Plan 1 -->
+        <div class="vps-item">
+            <img src="vps_image_1.jpg" alt="VPS Plan 1">
+            <div class="vps-details">
+                <h2>VPS Plan 1</h2>
+                <p>Price: $10/month</p>
+                <p>RAM: 2GB</p>
+                <p>Storage: 50GB SSD</p>
+                <button class="buy-button" onclick="buyVPS('VPS Plan 1', 10)">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Repeat the VPS Plan blocks for VPS Plan 2 to VPS Plan 6 -->
+
+    </section>
+
+    <script>
+        function buyVPS(plan, price) {
+            alert(`You have purchased ${plan} for $${price}. Thank you!`);
+            // Implement additional logic, such as redirecting to a checkout page or processing payment.
+        }
+    </script>
+</body>
+
+</html>
